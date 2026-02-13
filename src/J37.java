@@ -10,7 +10,7 @@ public class J37 {
     public static void main(String[] args){
         System.out.println("Hello world");
         myVillage mv1=new myVillage();
-        mv1.getHouseDetails();      //Java code will not compile because method is 'private'
+//        mv1.getHouseDetails();      //Java code will not compile because method is 'private'
         mv1.getTempleDetails();
     }
 }
