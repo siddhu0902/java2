@@ -25,3 +25,6 @@ public class J39 {
         }
     }
 }
+// Make this into a method
+//Create a txt file and input 10 words and call them here to check for palindrome or not
+//method for input txt file
