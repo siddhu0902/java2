@@ -25,7 +25,7 @@ public class J40 {
         sc.close();
     }
     public static void main(String[] args) throws FileNotFoundException {
-        File file = new File("words.txt");
+        File file = new File("words1.txt");
         Palindrome(file);
     }
 }

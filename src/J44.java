@@ -4,7 +4,10 @@ interface Flyable{
 interface BirdShape{
 
 }
-class Aeroplane implements BirdShape, Flyable{          //Multiple Inheritance
+class Rocket{
+
+}
+class Aeroplane  extends Rocket implements Flyable,BirdShape{          //Multiple Inheritance
     int numberofWings;
     int numberofEngines;
     void run(){
